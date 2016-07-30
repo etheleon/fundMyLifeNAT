@@ -6,6 +6,6 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/part2', {
   action: function() {
-    BlazeLayout.render("home", {});
+    BlazeLayout.render("home2", {});
   }
 });
