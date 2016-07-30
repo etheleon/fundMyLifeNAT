@@ -6,12 +6,32 @@ template(name="home")
                 h1(id="custom") What would you like to plan for
             .row
                 .col.l4
-                    img(src="/images/category_invest.png")
+                    img.btn.invest(src="/images/category_invest.png")
                     p Grow my wealth
                 .col.l4
-                    img(src="/images/category_retire.png")
+                    img.btn.retire(src="/images/category_retire.png")
                     p Retire Happy
                 .col.l4
-                    img.circle(src="/images/healthicon.png")
+                    img.circle.btn.health(src="/images/healthicon.png")
                     p Guard Against Illness
         .Aligner-item.Aligner-item-bottom
+
+template(name="home2")
+    .container
+        .row
+            .col.l3
+                img.circle(src="/images/healthicon.png")
+            .col.l9
+                p Current  Age: 26
+                p Retiring Age: 65
+        .row
+            .col.l3
+                img.circle(src="/images/healthicon.png")
+            .col.l9
+                p Sex: Male
+                p Smoke: 65
+        .row
+            .col.l3
+                img.circle(src="/images/healthicon.png")
+            .col.l9
+                p Monthly Retirement Income: $3500
